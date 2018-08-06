@@ -1,0 +1,227 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+    background-color: #fff;
+    word-wrap: break-word;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background-color: hsl(0, 0%, 47%);*/
+    /*background-color: black;*/
+}
+
+
+a {
+    list-style-type: none;
+    display: block; /*creates a block*/
+    color: #9d9d9d; /*White Text*/
+    text-align: center; /*center the text*/
+    padding: 15px 80px; /*possibly change this in the future*/
+    text-decoration: none; /*gets rid of underlining of the a hrefs*/
+    background-color: transparent; /*matches the background color as the ul class*/
+}
+
+a:hover {
+    list-style-type: none;
+    background-color: #ddd;
+    color: rgb(60, 60, 60);
+}
+
+a:visited {
+    list-style-type: none;
+    color: #9d9d9d;
+}
+
+.nav:hover {
+    list-style-type: none;
+    color: white; /*change text to white*/
+    background-color: transparent; /*no changes to the background*/
+}
+
+
+.div-name-block-green {
+    background-color: #00ff00;
+    width: 1000px;
+    text-align: center;
+    /*margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;*/
+    margin:auto;
+}
+
+#Status {
+    margin-top: 50px;
+}
+
+#Current-Term {
+    margin-top: 25px;
+    margin-left: 175px;
+    margin-bottom:auto;
+    margin-right:auto;
+} 
+
+#active-term{
+    background-color:greenyellow;
+}
+
+#Location{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+#Description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#Steven-1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.about {
+    float:left;
+    box-sizing: border-box;
+    margin-top: 50px;
+    font-size: 24px;
+    width: 66.66%;
+}
+
+.about-me{
+    margin-bottom:10px;
+    display:inline-block;
+}
+
+.row-2{
+    margin:0;
+    width:90%;
+}
+
+.container {
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: rgb(240, 240, 240);
+}
+
+.Current-Term-list {
+    background-color: white;
+    border-style: solid;
+    border-color: green;
+    border-width: 1px;
+    width: 120px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    display:inline-block;
+}
+
+.short{
+    width:700px;
+    margin:auto;
+}
+
+h1 {
+    font-size: 72px;
+    padding-left: 100px;
+    font-family: inherit;
+    font-weight: 100;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Impact", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    word-wrap: break-word;
+}
+
+h3 {
+    font-family: inherit;
+    font-weight: 100;
+    line-height: 1.1;
+    font-size: 24px;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-family: "Impact", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+    word-wrap: break-word;
+}
+
+/*Worry about this later*/
+
+@media screen and (max-width:960px) {
+    .div-name-block-green {
+        width: 100%;
+    }
+    #Current-Term {
+        margin-left: 0%;
+    } 
+    .Current-Term-list {
+        width: 100%;
+    }
+    .short {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .div-name-block-green {
+        width: 100%;
+    }
+
+    #Current-Term {
+        margin-left: 0%;
+    }
+
+    .Current-Term-list {
+        width: 100%;
+    }
+
+    .short {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:545px) {
+    h1, h3 {
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container {
+        width:320px;
+    }
+}
