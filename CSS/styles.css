@@ -1,17 +1,17 @@
 ﻿body {
-    margin: 0; /*Margins by default are 0 and must be added seperately within the containers/elements*/
+    margin: 0;/*Margins by default are 0 and must be added seperately within the containers/elements*/
     padding: 0; /*Paddings by default are 0 and must be added seperately within the containers/elements*/
-    font-family: "Segoe UI",Arial,sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    color: #333;
-    background-color: #fff;
-    word-wrap: break-word;/**/
+    font-family: "Segoe UI",Arial,sans-serif;/*default font-family inside the body*/
+    font-size: 16px;/*default text size inside the body element*/
+    line-height: 1;/*default thickness of all text inside the body element*/
+    color: #333;/*default text color/color of block element inside the body*/
+    background-color: #fff;/*White background color for each element*/
+    word-wrap: break-word;/*Any text inside the body must wrap around it's own block if there is an overflow on a line*/
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
+    list-style-type: none;/*No bullet pts, notes, etc. for any lists*/
+    margin: 0;/*margin and paddings are set to 0*/
     padding: 0;
     /*background-color: hsl(0, 0%, 47%);*/
     /*background-color: black;*/
@@ -19,7 +19,7 @@ ul {
 
 
 a {
-    list-style-type: none;
+    list-style-type: none; /*No bullet pts, notes, etc. for any links*/
     display: block; /*creates a block*/
     color: #9d9d9d; /*White Text*/
     text-align: center; /*center the text*/
@@ -29,163 +29,161 @@ a {
 }
 
 a:hover {
-    list-style-type: none;
-    background-color: #ddd;
-    color: rgb(60, 60, 60);
+    list-style-type: none; /*No bullet pts, notes, etc. for any hovered links*/
+    background-color: #ddd; /*set the background color of hovered link to light gray*/
+    color: rgb(60, 60, 60); /*set the color of the text to gray to make it stand out*/
 }
 
 a:visited {
-    list-style-type: none;
-    color: #9d9d9d;
+    list-style-type: none; /*No bullet pts, notes, etc. for any visited links*/
+    color: #9d9d9d;/*make sure the color remains the same so bootstrap doesn't change it*/
 }
 
 .nav:hover {
-    list-style-type: none;
+    list-style-type: none; /*No bullet pts, notes, etc. for any class="nav" or the website name*/
     color: white; /*change text to white*/
     background-color: transparent; /*no changes to the background*/
 }
 
 
 .div-name-block-green {
-    background-color: #00ff00;
-    width: 1000px;
-    text-align: center;
+    background-color: #00ff00; /*light green block color for every section*/
+    width: 1000px; /*size of the block*/
+    text-align: center; /*center the text*/
     /*margin-top: 50px;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;*/
-    margin:auto;
+    margin: auto; /*center the block on the page*/
 }
 
 #Status {
-    margin-top: 50px;
+    margin-top: 50px;/*Moves the Status green block down 50 px*/
 }
 
 .img-position-1{
-    margin:100px;
+    margin:100px;/*moves the images on the contact page down and right by 100px*/
 }
 
 #Current-Term {
-    margin-top: 25px;
+    margin-top: 25px;/*margins or dimensions for current term circular blocks*/
     margin-left: 175px;
     margin-bottom:auto;
     margin-right:auto;
 } 
 
 #active-term{
-    background-color:greenyellow;
+    background-color:greenyellow;/*background color of the active term to be green yellow*/
 }
 
 #Location{
-    margin-top:25px;
+    margin-top:25px;/*leave space between the location block top and bottum*/
     margin-bottom:25px;
 }
 
 #Description {
-    margin-top: 25px;
+    margin-top: 25px; /*leave space between the description block top and bottum*/
     margin-bottom: 25px;
 }
 
 #Steven-1 {
-    float: left;
-    margin-top: 50px;
+    float: left;/*place the image on the "About Me" page on the left side of the page*/
+    margin-top: 50px;/*set the margins of the image*/
     margin-left: 15px;
     margin-right: 15px;
 }
 
 .about {
-    float:left;
+    float:left;/*Put the text block next to the image on the about me page on the very left*/
     box-sizing: border-box;
-    margin-top: 50px;
-    font-size: 24px;
-    width: 66.66%;
+    margin-top: 50px;/*move it down by 50px*/
+    font-size: 24px;/*Change the font to size 24*/
+    width: 66.66%;/*set the width to take up 66% of the page*/
 }
 
 .about-me{
-    margin-bottom:10px;
-    display:inline-block;
+    margin-bottom:10px;/*add a 10px margin*/
+    display:inline-block;/*make sure the image and all text blocks align on the about me page*/
 }
 
 .row-2{
-    margin:0;
-    width:90%;
+    margin:0;/*cancel all margins for the 2nd block of text*/
+    width:90%;/*set the width to the second block of text to 90% of the page*/
 }
 
 .container {
-    padding-top: 10px;
+    padding-top: 10px;/*The margins of the header on every page*/
     padding-right: 0px;
     padding-left: 0px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(240, 240, 240);/*set the background color behind the text of the header to be a light color*/
 }
 
 .Current-Term-list {
-    background-color: white;
-    border-style: solid;
-    border-color: green;
-    border-width: 1px;
-    width: 120px;
-    text-align: center;
-    padding-top: 10px;
+    background-color: white;/*white circle*/
+    border-style: solid;/*border will be a solid line*/
+    border-color: green;/*borderline with be green*/
+    border-width: 1px;/*circular blocks */
+    width: 120px;/*each term block has a width of 120px*/
+    text-align: center;/*center the text*/
+    padding-top: 10px;/*center the text from top/bottum with the paddings*/
     padding-bottom: 10px;
-    border-radius: 40px;
-    margin-bottom: 10px;
-    display:inline-block;
+    border-radius: 40px;/*even border radius on all corners*/
+    margin-bottom: 10px;/*add some space between each block*/
+    display:inline-block;/*display it all on the same line*/
 }
 
 .short{
-    width:700px;
-    margin:auto;
+    width:700px;/*lower the width to make it smaller*/
+    margin:auto;/*center the smaller text/section block */
 }
 
 h1 {
-    font-size: 72px;
-    padding-left: 100px;
-    font-family: inherit;
-    font-weight: 100;
-    line-height: 1.1;
-    margin-top: 20px;
+    font-size: 72px;/*header h1 size of 72px*/
+    padding-left: 100px;/*move the text to the left by 100px*/
+    font-family: inherit;/*text font to be inherit*/
+    font-weight: 100;/*make the thickness of the text a rlly thin*/
+    line-height: 1.1;/*make the text line a little longer*/
+    margin-top: 20px;/*put a little space between the huge word*/
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: "Impact", sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
-    display: block;
-    color: white;
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px;
-    word-wrap: break-word;
+    font-family: "Impact", sans-serif; /*font of the h3 tag*/
+    font-size: 36px; /*font size of the h3 tag*/
+    text-transform: uppercase;/*make all the text upper case*/
+    display: block;/*show the block*/
+    color: white;/*text color is white*/
+    margin: auto;/*center the block*/
+    text-align: center;/*center the text in the block*/
+    vertical-align: middle;/*vertically center the text in the block*/
+    line-height: 90px;/*height of the block to be 90px*/
 }
 
 h3 {
-    font-family: inherit;
-    font-weight: 100;
-    line-height: 1.1;
-    font-size: 24px;
-    padding-left: 100px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    font-family: inherit;/*font for the h3 tag*/
+    font-weight: 100;/*also make the text thin*/
+    line-height: 1.1;/**/
+    font-size: 24px;/*font size for the h3 tag*/
+    padding-left: 100px;/*move this block to the left by 100 px*/
+    padding-bottom: 0px;/*no bottum padding*/
+    margin-top: 0px;/*no margin on top*/
+    margin-bottom: 50px;/*extend margin on the bottum by 50px*/
 }
 
 h4 {
-    font-family: "Impact", sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;
-    display: block;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 70px;
-    word-wrap: break-word;
+    font-family: "Impact", sans-serif; /*font of h4 smaller text blocks*/
+    font-size: 24px; /*font size of h4 smaller text blocks*/
+    text-transform: uppercase; /*make all the text upper case*/
+    display: block;/*show the block*/
+    color: white;/*white text*/
+    text-align: center;/*center the text*/
+    vertical-align: middle;/*center the text from top and bottum*/
+    line-height: 70px;/*make the block height 70px*/
 }
 
 /*Worry about this later*/
 
-@media screen and (max-width:960px) {
+@media screen and (max-width:960px) {/*when the width of the screen becomes 960px*/
     .div-name-block-green {
         width: 100%;
     }
@@ -200,31 +198,17 @@ h4 {
     }
 }
 
-@media screen and (max-width:640px) {
-    .div-name-block-green {
-        width: 100%;
-    }
+@media screen and (max-width:640px) {/*when the width of the screen becomes 640px*/
 
-    #Current-Term {
-        margin-left: 0%;
-    }
-
-    .Current-Term-list {
-        width: 100%;
-    }
-
-    .short {
-        width: 100%;
-    }
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width:545px) {/*when the width of the screen becomes 545px*/
     h1, h3 {
         padding-left: 0%;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:320px) {/*when the width of the screen becomes 320px*/
     .container {
         width:320px;
     }
