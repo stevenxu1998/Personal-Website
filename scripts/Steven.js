@@ -1,3 +1,11 @@
 // JavaScript source code
-var x = document.getElementsByClassName("container");
-document.getElementById("Steven-Header").innerHTML = x[0].innerHTML;
+function Navbar() {
+    var x = document.getElementsByTagName("nav");
+    if (x.id === "topnav")
+    {
+        x.id += " responsive";
+    }
+    else {
+        x.id == "topnav";
+    }
+}

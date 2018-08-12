@@ -12,50 +12,63 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <ul style="background-color: black;">
-            <li style="display: inline-block"><a href="index.html" class="nav">Steven Xu</a></li>
-            <li style="display: inline-block"><a href="index.html">Home</a></li>
-            <li style="display: inline-block"><a href="AboutMe.html">About Me</a></li>
-            <li style="display: inline-block"><a href="#">Resume</a></li>
-            <li style="display: inline-block"><a href="#">Projects</a></li>
-            <li style="display: inline-block"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="div-blankspace">
-        <div class="container">
-            <header>
-                <h1>Steven Xu</h1>
-                <h3>Electrical Engineering, University of Waterloo</h3>
-            </header>
+    <div id="whole-container">
+        <div id="main">
+            <nav class="topnav">
+                <ul style="background-color: black;">
+                    <li style="display: inline-block"><a href="index.html" class="nav">Steven Xu</a></li>
+                    <li style="display: inline-block"><a href="index.html">Home</a></li>
+                    <li style="display: inline-block"><a href="AboutMe.html">About Me</a></li>
+                    <li style="display: inline-block"><a href="#">Resume</a></li>
+                    <li style="display: inline-block"><a href="#">Projects</a></li>
+                    <li style="display: inline-block"><a href="contact.html">Contact</a></li>
+                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
+                </ul>
+            </nav>
+            <script src="scripts/Steven.js"></script>
+            <div class="div-blankspace">
+                <div class="container">
+                    <header>
+                        <h1>Steven Xu</h1>
+                        <h3>Electrical Engineering, University of Waterloo</h3>
+                    </header>
+                </div>
+            </div>
+            <div class="about-me">
+                <img src="IMG/StevenXu.jpg" alt="Steven Xu" height="200" width="300" class="img-rounded img-position-1" />
+                <div class="social">
+                    <div class="social-media">
+                        <ul>
+                            <li style="display:inline-block"><a href="#" class="fa fa-facebook"></a></li>
+                            <li style="display:inline-block"><a href="#" class="social-text">Facebook Profile</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-media">
+                        <ul>
+                            <li style="display:inline-block"><a href="#" class="fa fa-instagram"></a></li>
+                            <li style="display:inline-block"><a href="#" class="social-text">Instagram Account</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-media">
+                        <ul>
+                            <li style="display:inline-block"><a href="#" class="fa fa-google"></a></li>
+                            <li style="display:inline-block"><a href="#" class="social-text">My Gmail</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-media" id="last-social">
+                        <ul>
+                            <li style="display:inline-block"><a href="#" class="fa fa-github"></a></li>
+                            <li style="display:inline-block"><a href="#" class="social-text">Git-Hub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="about-me">
-        <img src="IMG/StevenXu.jpg" alt="Steven Xu" height="200" width="300" class="img-rounded img-position-1" />
-    </div>
-    <div>
-        <ul>
-            <li style="display:inline-block"><a href="#" class="fa fa-facebook"></a></li>
-            <li style="display:inline-block"><a href="#">Facebook Profile</a></li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li style="display:inline-block"><a href="#" class="fa fa-instagram"></a></li>
-            <li style="display:inline-block"><a href="#">Instagram Account</a></li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li style="display:inline-block"><a href="#" class="fa fa-google"></a></li>
-            <li style="display:inline-block"><a href="#">My Gmail</a></li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <li style="display:inline-block"><a href="#" class="fa fa-github"></a></li>
-            <li style="display:inline-block"><a href="#">Git-Hub</a></li>
-        </ul>
-    </div>
+    <footer id="footer">
+        <p id="footer-text">Copyright &copy; 2018 Steven Xu</p>
+    </footer>
 </body>
 </html>
