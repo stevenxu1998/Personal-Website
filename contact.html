@@ -14,20 +14,22 @@
 <body>
     <div id="whole-container">
         <div id="main">
-            <nav class="topnav">
+            <nav class="topnav" id="myTopnav">
                 <ul style="background-color: black;">
-                    <li style="display: inline-block"><a href="index.html" class="nav">Steven Xu</a></li>
-                    <li style="display: inline-block"><a href="index.html">Home</a></li>
-                    <li style="display: inline-block"><a href="AboutMe.html">About Me</a></li>
-                    <li style="display: inline-block"><a href="#">Resume</a></li>
-                    <li style="display: inline-block"><a href="#">Projects</a></li>
-                    <li style="display: inline-block"><a href="contact.html">Contact</a></li>
-                    <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a></li>
+                    <li><a href="index.html" class="nav">Steven Xu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" id="icon" onclick="Navbar()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
                 </ul>
             </nav>
-            <script src="scripts/Steven.js"></script>
+            <script type="text/javascript" src="scripts/Steven.js"></script>
             <div class="div-blankspace">
                 <div class="container">
                     <header>

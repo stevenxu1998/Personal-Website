@@ -1,11 +1,11 @@
 // JavaScript source code
 function Navbar() {
-    var x = document.getElementsByTagName("nav");
-    if (x.id === "topnav")
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav")
     {
-        x.id += " responsive";
+        x.className += " responsive";
     }
     else {
-        x.id == "topnav";
+        x.className = "topnav";
     }
 }

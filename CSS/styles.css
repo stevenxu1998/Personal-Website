@@ -15,6 +15,17 @@ ul {
     padding: 0;
 }
 
+.topnav li {
+    display: inline-block;
+}
+
+/*.topnav ul {
+    float:left;
+}
+
+.middle-links {
+    float: left;
+}*/
 
 .topnav li a {
     list-style-type: none; /*No bullet pts, notes, etc. for any links*/
@@ -27,12 +38,11 @@ ul {
 }
 
 .topnav li a:hover {
-    list-style-type: none; /*No bullet pts, notes, etc. for any hovered links*/
     background-color: #ddd; /*set the background color of hovered link to light gray*/
     color: rgb(60, 60, 60); /*set the color of the text to gray to make it stand out*/
 }
 
-.topnav li a:visited {
+a:visited {
     list-style-type: none; /*No bullet pts, notes, etc. for any visited links*/
     color: #9d9d9d; /*make sure the color remains the same so bootstrap doesn't change it*/
 }
@@ -43,6 +53,9 @@ ul {
     background-color: transparent; /*no changes to the background*/
 }
 
+#icon {
+    padding:15px 25px;
+}
 
 .div-name-block-green {
     background-color: #00ff00; /*light green block color for every section*/
@@ -112,7 +125,7 @@ ul {
     padding-top: 15px;
 }
 
-.fa {
+.social-media li a.fa {
     padding: 20px;
     font-size: 30px;
     width: 60px;
@@ -122,8 +135,8 @@ ul {
     border-radius: 100%;
 }
 
-.icon{
-    display:none !important;
+.topnav .icon {
+    display: none;
 }
 
 .fa:hover {
@@ -281,34 +294,50 @@ h4 {
     line-height: 70px;/*make the block height 70px*/
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*Worry about this later*/
 /*media queries*/
 
 /* When the screen is less than 1334 pixels wide, hide all links, except for the first one ("Steven Xu"). 
 /*Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width:1334px) {
-    #main .topnav ul li a:not(:first-child) {
+    .topnav ul li:not(:first-child) {
         display: none;
     }
-    #main .topnav ul li a.icon {
+
+    .topnav .icon {
         float: right;
-        display: block;
+        display: block !important;
     }
 }
 
 @media screen and (max-width:1334px) {
-    #main .topnav.responsive {
+    .topnav.responsive {
         position: relative;
     }
-    #main .topnav.responsive a.icon {
+
+    .topnav.responsive li.icon a {
         position: absolute;
         right: 0;
         top: 0;
     }
-    #main .topnav.responsive a {
+
+    .topnav.responsive ul li {
         float: none;
         display: block;
+    }
+
+    .topnav.responsive ul li a {
         text-align: left;
+    }
+
+    .topnav.responsive .nav {
+        display: none;
     }
 }
 
