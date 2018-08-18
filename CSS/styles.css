@@ -250,6 +250,27 @@ a:visited {
     background-color:black;
 }
 
+.skill-img {
+    height: 33.6%;
+    /* width: 229.5px;*/
+    width: 55%;
+    margin-bottom:25px;
+}
+
+.row{
+    margin-left:25px;
+}
+
+.html-css {
+    /*width: 387px;*/
+    width: 85%;
+}
+
+.java {
+    /*width: 420px;*/
+    width: 90%;
+}
+
 h1 {
     font-size: 72px; /*header h1 size of 72px*/
     padding-left: 100px; /*move the text to the left by 100px*/
