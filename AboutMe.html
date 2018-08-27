@@ -8,6 +8,8 @@
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="icon" type="image/png" href="IMG/ece-symbol.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
@@ -15,21 +17,29 @@
 <body>
     <div id="whole-container">
         <div id="main">
-            <nav class="topnav">
+            <nav class="topnav" id="myTopnav">
                 <ul style="background-color: black;">
-                    <li style="display: inline-block"><a href="index.html" class="nav">Steven Xu</a></li>
-                    <li style="display: inline-block"><a href="index.html">Home</a></li>
-                    <li style="display: inline-block"><a href="AboutMe.html">About Me</a></li>
-                    <li style="display: inline-block"><a href="#">Resume</a></li>
-                    <li style="display: inline-block"><a href="projects.html">Projects</a></li>
-                    <li style="display: inline-block"><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" class="nav">Steven Xu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About Me</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" id="icon" onclick="Navbar()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
                 </ul>
             </nav>
-            <div class="container" id="Header">
-                <header>
-                    <h1>Steven Xu</h1>
-                    <h3>Electrical Engineering, University of Waterloo</h3>
-                </header>
+            <script type="text/javascript" src="scripts/Steven.js"></script>
+            <div class="div-blankspace">
+                <div class="container">
+                    <header>
+                        <h1>Steven Xu</h1>
+                        <h3>Electrical Engineering, University of Waterloo</h3>
+                    </header>
+                </div>
             </div>
             <div class="div-name-block-green" id="Status">
                 <h2>About Me</h2>
@@ -40,37 +50,25 @@
                     <p>
                         Hi there, my name is Steven Xu.
                         I am a second year student who is currently studying electrical engineering in the University of Waterloo.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
-                        Hello, my name is Steven Xu.
+                        I am enthusiastic about electronic circuits, digital circuits, FPGAs (field programmable gate array) web development, and android app developement.
+                    </p>
+                    <p>
+                        I try to make the best of my time in both university and during my co-op terms by trying to learn or obtain as much
+                        knowledge as possible no matter where I am.
+                        Being an introvert, I tend to enjoy working on my own and often at times work on my own side projects (like this one)
+                        but I am also capable of working in a group with others as I have in the past.
                     </p>
                 </div>
             </div>
             <div class="about row-2">
                 <p style="margin-left:50px;">
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
-                    Hello, my name is Steven Xu.
+                    Other Stuff:
+                </p>
+                <p style="margin-left:50px;">
+                    My favourite sport is basketball <i class="em em-basketball"></i>, and I enjoy both playing the sport as well as
+                    well as watching, and talking about it even though I haven't had the time to play basketball over the past 2 years.
+                    Some of my other hobbies include going out to eat <i class="em em-hamburger"></i> and trying new foods as I am also a foodie.
+                    In terms of my favourite food, I wouldn't necessarily say that I have a specific food that I enjoy since I like eating a variety of foods.
                 </p>
             </div>
         </div>
