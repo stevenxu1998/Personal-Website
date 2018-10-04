@@ -73,7 +73,7 @@ a:visited {
     margin: 100px; /*moves the images on the contact page down and right by 100px*/
 }
 
-#Current-Term {
+.Current-Term {
     margin-top: 25px;/*margins or dimensions for current term circular blocks*/
     margin-left: 175px;
     margin-bottom:auto;
